@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+
+# Generated model artifacts (regenerate with `python train_model.py`)
+model/*.pkl
+model/*.json
